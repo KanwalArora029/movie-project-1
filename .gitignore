@@ -144,4 +144,4 @@ Thumbs.db
 */.ipynb_checkpoints/*
 
 # config file
-config1.py
+movie_config.py
