@@ -1,5 +1,11 @@
 # movie-project
-We decided to pick comedy movies as our genre, and we wanted to identify key factors that contribute to success. 
-Some examples include popularity, critic ratings, runtime, user ratings, budget, actors, director, and release year.
-We picked IMDb and Rotten Tomatoes to webscrape from. IMDb is based on user ratings, while Rotten Tomatoes is based on professional critic ratings. We believe it is important to include both in order to see which is a better determinant of success.
-We picked https://developers.themoviedb.org/3/ to obtain data through an API.
+
+An exercise in web-scraping and iterative API calls. 
+
+The goals of this project were to further our understanding of web-scraping and making API requests.
+
+We set out to collect data pertaining to Comedy movies of the last 20 years from IMDB. After identifying properly filtered webpages, we scraped the desired imdb ID's for 1000 movies sorted by imdb Box Office.
+
+After obtaining the ID's we made API requests for each and parsed the data for entry into SQL database.
+
+
